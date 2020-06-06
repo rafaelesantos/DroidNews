@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "250860489564",
+    "firebase_url": "https://droidnews-59052.firebaseio.com",
+    "project_id": "droidnews-59052",
+    "storage_bucket": "droidnews-59052.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250860489564:android:8d94b69ccfbbfd69054f99",
+        "android_client_info": {
+          "package_name": "com.rafaelescaleira.droidnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250860489564-23t07k8gcj42i365trh396egtp28prbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIot-eZQXRXoWCiMNlqtJSYzg7HJO9YHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250860489564-23t07k8gcj42i365trh396egtp28prbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
