@@ -9,12 +9,49 @@
         android:id="@+id/navigation_news"
         android:name="com.rafaelescaleira.droidnews.ui.news.NewsFragment"
         android:label="@string/title_news"
-        tools:layout="@layout/fragment_news" />
+        tools:layout="@layout/fragment_news" >
+        <action
+            android:id="@+id/action_navigation_news_to_navigation_detail_news"
+            app:destination="@id/navigation_detail_news" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_sign_in"
+        android:name="com.rafaelescaleira.droidnews.ui.user.SignInFragment"
+        android:label="Acessar"
+        tools:layout="@layout/fragment_sign_in">
+        <action
+            android:id="@+id/action_navigation_sign_in_to_navigation_user"
+            app:destination="@id/navigation_user" />
+        <action
+            android:id="@+id/action_navigation_sign_in_to_navigation_sign_up"
+            app:destination="@id/navigation_sign_up" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_sign_up"
+        android:name="com.rafaelescaleira.droidnews.ui.user.SignUpFragment"
+        android:label="Cadastre-se"
+        tools:layout="@layout/fragment_sign_up">
+        <action
+            android:id="@+id/action_navigation_sign_up_to_navigation_user"
+            app:destination="@id/navigation_user" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_user"
         android:name="com.rafaelescaleira.droidnews.ui.user.UserFragment"
         android:label="@string/title_user"
         tools:layout="@layout/fragment_user" />
+
+    <fragment
+        android:id="@+id/navigation_detail_news"
+        android:name="com.rafaelescaleira.droidnews.ui.news.DetailNewsFragment"
+        android:label="Adicionar Notícia"
+        tools:layout="@layout/fragment_detail_news">
+        <action
+            android:id="@+id/action_navigation_detail_news_to_navigation_news"
+            app:destination="@id/navigation_news" />
+    </fragment>
 
 </navigation>

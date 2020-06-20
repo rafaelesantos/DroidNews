@@ -7,7 +7,7 @@
         android:title="@string/title_news" />
 
     <item
-        android:id="@+id/navigation_user"
+        android:id="@+id/navigation_sign_in"
         android:icon="@drawable/ic_user_circle"
         android:title="@string/title_user" />
 
